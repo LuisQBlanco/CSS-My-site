@@ -1,0 +1,173 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: "Merriweather", serif;
+}
+
+h1 {
+    margin: 50px auto 0 auto;
+    /* margin: 0 auto; */
+    font-family: 'Sacramento', cursive;
+    font-size: 8.7rem;
+    font-weight: 900;
+    color: #66BFBF;
+    /* line-height: 2; */
+}
+
+h2 {
+    margin: 0px auto 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    /* font-weight:600; */
+    color: #66BFBF;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+
+}
+
+a {
+    color: #11999E;
+    
+}
+
+p {
+    color: #40514e;
+}
+
+hr {
+    margin: 100px auto;
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #eaf6f6;
+    border-width: 15px;
+    width: 7%;
+}
+
+/*  Container */
+.top-container{
+    background-color: #e4f9f5;
+    position: relative;
+    padding-top: 100px;
+
+}
+
+
+.middle-container{
+    line-height: 2;
+}
+
+.bottom-container {
+    margin: 50px auto;
+    /* padding: 100px 100px 100px 100px; */
+}
+
+/* Images Section */
+.top-cloud {
+    position: absolute;
+    right: 25%;
+    top: 50px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 25%;
+    bottom: 300px;
+}
+
+.profile-image {
+    width: 400px;
+    margin: auto;
+}
+
+.skill-image1 {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+
+}
+
+.skill-image2 {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+/* Profile Section */
+
+.profile-title {
+    margin-top: 50px;
+    font-size: 2.5rem;
+}
+.profile-text {
+    width: 40%;
+    margin: 50px auto;
+    font-size: 1.2rem;
+}
+
+
+
+/* Skill Section */
+
+.skills {
+    
+}
+
+.skill-row {
+    width: 50%;
+    /* position: relative; */
+    margin: 100px auto;
+    text-align: left;
+    
+}
+
+.skill-title {
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+    /* font-weight: 700; */
+    font-size: 1.5rem;
+
+}
+
+.skill-text {
+    
+    font-size: 1.2rem;
+}
+
+/* Contact Me Section */
+
+.contact-me {
+    margin: 50px auto;
+}
+
+
+/* Buttom */
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Courier New;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+.btn:hover {
+    background:  #30e3cb;
+    background-image: -webkit-linear-gradient(top,  #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top,  #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top,  #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top,  #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom,  #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
