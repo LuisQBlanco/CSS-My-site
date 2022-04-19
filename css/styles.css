@@ -1,4 +1,5 @@
 body {
+    color: #40514e;
     margin: 0;
     text-align: center;
     font-family: "Merriweather", serif;
@@ -18,7 +19,7 @@ h2 {
     margin: 0px auto 0 auto;
     font-family: 'Montserrat', sans-serif;
     font-size: 2.5rem;
-    /* font-weight:600; */
+    font-weight:400;
     color: #66BFBF;
 }
 
@@ -30,15 +31,23 @@ h3 {
 
 a {
     color: #11999E;
+    font-family: 'Montserrat', sans-serif;
     padding-inline: 20px 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #eaf6f6;
 }
 
 p {
     color: #40514e;
+    line-height: 2;
 }
 
 hr {
     margin: 100px auto;
+    border: ;
     border-style: none;
     border-top-style: dotted;
     border-color: #eaf6f6;
@@ -56,20 +65,21 @@ hr {
 
 
 .middle-container{
+    margin: 100px 0px;
     line-height: 2;
 }
 
 .bottom-container {
-    margin: 50px auto;
+    /* margin: 50px auto; */
     background-color: #66BFBF;
-    padding: 50px 50px;
+    padding: 50px 0 20px;
 }
 
 /* Images Section */
 .top-cloud {
     position: absolute;
     right: 25%;
-    top: 50px;
+    top: 40px;
 }
 
 .bottom-cloud {
@@ -106,8 +116,9 @@ hr {
     margin-top: 50px;
     font-size: 2.5rem;
 }
+
 .profile-text {
-    width: 40%;
+    width: 30%;
     margin: 50px auto;
     font-size: 1.2rem;
 }
@@ -144,11 +155,12 @@ hr {
 /* Contact Me Section */
 
 .contact-me {
-    margin: 50px auto;
+    /* margin: 50px auto; */
 }
 
 div.contact-me p {
-    margin-bottom: 50px;
+    width: 40%;
+    margin: 40px auto 60px;
 }
 
 /* Buttom */
@@ -163,7 +175,7 @@ div.contact-me p {
     -webkit-border-radius: 8;
     -moz-border-radius: 8;
     border-radius: 8px;
-    font-family: Courier New;
+    font-family: 'Montserrat', sans-serif;
     color: #ffffff;
     font-size: 20px;
     padding: 10px 20px 10px 20px;
@@ -178,4 +190,12 @@ div.contact-me p {
     background-image: -o-linear-gradient(top,  #30e3cb, #2bc4ad);
     background-image: linear-gradient(to bottom,  #30e3cb, #2bc4ad);
     text-decoration: none;
+  }
+
+/* Copyright Section */
+
+  .copyright {
+      color: #eaf6f6;
+      font-size: 0.75rem;
+      padding: 20px 0;
   }
